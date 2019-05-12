@@ -20,7 +20,7 @@ export default class Navbar extends Component {
             );
           })}
           <p className="linksContainer">
-            <Link to={`${process.env.PUBLIC_URL}/unknown`} className="links">Blog</Link>
+            <a href="http://www.blog.sscrypts.com/" className="links">Blog</a>
           </p>
         </div>
       </div>
